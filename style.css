@@ -17,3 +17,11 @@
     color: white;
     padding: 50px;
 }
+
+.creating-circle {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    border-radius: 100px;
+}
