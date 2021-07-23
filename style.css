@@ -68,21 +68,11 @@ body {
 .creating-inner-shadow {
     width: 600px;
     height: 0 auto;
-    background-color: #9ACD32;
+    background-color: #f0ed4b;
     box-shadow: inset 10px 10px 5px #888888;
     padding: 20px;
     color: black;
 }
-
-
-/* 
-div {
-    width: 300px;
-    height: 100px;
-    background-color: #9ACD32;
-    box-shadow: inset 10px 10px 5px #888888;
-}
-*/
 
 
 
