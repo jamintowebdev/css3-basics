@@ -3,9 +3,7 @@ body {
     margin-left: 300px;
 }
 
-#main-heading {
-    
-}
+#main-heading {}
 
 .border-radius-round {
     -webkit-border-radius: 20px;
@@ -92,6 +90,15 @@ body {
     color: black;
 }
 
+#multiple-shadows-only {
+    width: 600px;
+    height: 150px;
+    background-color: #9ACD32;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 8px blue, 20px 20px 8px red, 30px 30px 8px #f0ed4b;
+}
+
 
 
 
@@ -102,4 +109,3 @@ body {
 .margin-bottom {
     margin-bottom: 100px;
 }
-
