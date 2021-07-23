@@ -75,7 +75,12 @@ body {
 }
 
 .layering-multiple-shadows-partOne {
-
+    width: 600px;
+    height: 0 auto;
+    background-color: #f0ed4b;
+    box-shadow: inset 10px 10px 5px red, inset -10px -10px 5px blue;
+    padding: 20px;
+    color: black;
 }
 
 .layering-multiple-shadows-partTwo {
