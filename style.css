@@ -36,3 +36,12 @@
     color: black;
 }
 
+.box-shadow-blur_and_spread {
+    width: 600px;
+    height: 0 auto;
+    background-color: #32aecd;
+    box-shadow: 10px 10px 5px 5px;
+    padding: 20px;
+    color: black;
+}
+
