@@ -96,8 +96,9 @@ body {
     background-color: #9ACD32;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 10px 10px 8px blue, 20px 20px 8px red, 30px 30px 8px #f0ed4b;
+    box-shadow: 10px 10px blue, 20px 20px red, 30px 30px yellow;
 }
+
 
 
 
