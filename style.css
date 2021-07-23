@@ -47,7 +47,7 @@ body {
     width: 600px;
     height: 0 auto;
     background-color: #cd329f;
-    box-shadow: 10px 10px 5px 5px;
+    box-shadow: 10px 10px 5px 5px rgba(49, 79, 248, 0.733);
     padding: 20px;
     color: black;
 }
