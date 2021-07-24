@@ -206,7 +206,8 @@
             between the shape and the underlying surface.<br>
             To remove a text-shadow, set the text-shadow property<br> to none; no shadows will be <br>associated with
             that
-            element.</p>
+            element.
+        </p>
         <h3 class="two-shadows">This text has two shadows</h3>
     </div> <br> <br>
     <hr> <br> <br>
@@ -218,24 +219,56 @@
             without using JavaScript or any other scripts.<br> A pseudo-class starts with a ":" (colon).<br>
             The most commonly used pseudo-classes are :<b>first-child and :last-child</b>.</p><br>
 
-        <p>The :first-child pseudo-class matches an element that is <br>the first child element of some other element.</p><br>
+        <p>The :first-child pseudo-class matches an element that is <br>the first child element of some other element.
+        </p><br>
         <p>In the following example, the selector matches <br>any &lt;p&gt; element that is the first child of the div
             element:</p><br>
-            <div id="parent">
-                <p>First paragraph</p>
-                <p>Second paragraph</p>
-                <p>Third paragraph</p>
-                <p>Fourth paragraph</p>
-            </div>
-            <p>The :last-child pseudo-class matches an element that is <br>the last child element of some other element.<br>
+        <div id="parent">
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+            <p>Fourth paragraph</p>
+        </div>
+        <p>The :last-child pseudo-class matches an element that is <br>the last child element of some other element.<br>
 
-                In the example below, the selector will match any &lt;p&gt;element <br> that is the last child of the div element:</p> <br>
-                <div id="parent2">
-                    <p>First paragraph</p>
-                    <p>Second paragraph</p>
-                    <p>Third paragraph</p>
-                    <p>Fourth paragraph</p>
-                </div>
+            In the example below, the selector will match any &lt;p&gt;element <br> that is the last child of the div
+            element:</p> <br>
+        <div id="parent2">
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+            <p>Fourth paragraph</p>
+        </div>
+    </div> <br> <br>
+    <hr> <br> <br>
+
+    <div class="Working-with-Pseudo-Elements">
+        <h3>Working with Pseudo Elements</h3>
+
+
+        <p>Pseudo elements are used to select specific parts of an element. <br>
+            There are five pseudo elements in CSS, each starting with a <b>double colon (::):</b></p>
+
+        <p><b>::first-line</b> - the first line of the text in a selector <br>
+            <b>::first-letter</b> - the first letter of the text in a selector <br>
+            <b>::selection</b> - selects the portion of an element that is selected by a user <br>
+            <b>::before</b> - inserts some content before an element <br>
+            <b>::after</b> - inserts some content after an element
+        </p> <br>
+
+        <p>In the example below, the <b>::first-line</b> pseudo element <br> is used to style the first line of our
+            text:</p> <br>
+        <div id="firstline-pseudo-element">
+            <p>The following example demonstrates how to use the ::first-line element to add special effect to the first
+                line of elements in the document.</p>
+        </div> <br> <br>
+        <div id="selection-pseudo-element">
+            <p>The following example demonstrates how to use the ::selection element to change the color of the selected
+                text.</p>
+
+        </div>
+
+
     </div>
 
 
