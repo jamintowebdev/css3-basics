@@ -116,16 +116,17 @@ nav {
 }
 
 nav ul {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.2) 25%, 
-    rgba(255, 255, 255, 0.2) 75%, 
-    rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 25%,
+            rgba(255, 255, 255, 0.2) 75%,
+            rgba(255, 255, 255, 0) 100%);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
 nav ul li {
     display: inline-block;
 }
+
 nav ul li a {
     padding: 10px;
     color: #FFFFFF;
@@ -155,6 +156,14 @@ nav ul li a {
     font-size: 50px;
 }
 
+#parent {
+    font-size: 40px;
+}
+
+#parent p:first-child {
+    color: green;
+    text-decoration: underline;
+}
 
 
 
