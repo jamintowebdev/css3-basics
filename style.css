@@ -137,17 +137,17 @@ nav ul li a {
 
 .text-shadow-only {
     text-shadow: 2px 2px tomato;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .text-shadow-blur {
     text-shadow: 2px 2px 8px #FF0000;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .text-shadow-multi-color {
     text-shadow: 1px 1px 3px #FF0000, 2px 2px 6px #00ff2a;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
