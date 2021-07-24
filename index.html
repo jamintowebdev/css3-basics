@@ -172,14 +172,38 @@
             content of the current element. <br> <br>
 
             The image below shows how the text-shadow property is applied:</p> <br>
-            <img src="img/text-shadow-property.png" alt="this is a picture about text-shadow-property">
+        <img src="img/text-shadow-property.png" alt="this is a picture about text-shadow-property">
         <p><b>Note!</b> - The offset-x and offset-y values are required for the CSS text<br>-shadow property. <br> <br>
-            - The color value is not required, but since the default for the text <br> -shadow is transparent, the text-shadow
+            - The color value is not required, but since the default for the text <br> -shadow is transparent, the
+            text-shadow
             will not appear unless you <br> specify a color value.</p>
-            <h3 class="text-shadow-only">The text-shadow Property</h3>
-            <h3 class="text-shadow-blur">The text-shadow Property with blur effect</h3>
-            <h3 class="text-shadow-multi-color">The text-shadow Property with more <br>than one color seperated by comma,</h3>
+        <h3 class="text-shadow-only">The text-shadow Property</h3>
+        <h3 class="text-shadow-blur">The text-shadow Property with blur effect</h3>
+        <h3 class="text-shadow-multi-color">The text-shadow Property with more <br>than one color seperated by comma,
+        </h3>
+        <h3> Remember: Multiple Text Shadows</h3>
 
+
+        <p>The text-shadow style can accept multiple values in a comma-separated list. <br>
+            According to CSS2, the shadows are laid down in the order they appear, <br> so if they overlap, the last one
+            that is specified should appear on top. <br> CSS3 has now changed that so they are applied in reverse order.
+            <br>
+
+            To create multiple shadows, the shadows are separated with a comma. <br>
+            Here is an example:
+        </p>
+        <p>This example defines two text shadows at different locations, blur radius, and colors. <br> This makes it
+            look like there are two different light sources on the text.</p>
+        <p>To make a text shadow look realistic, <br> remember these few shadow characteristics: <br>
+
+            - A shadow which is close to the text is normally not <br> as blurred as a shadow that is far from the text. <br> A
+            shadow that is far from the text usually implies <br> a light source which is also far from the text.  <br>
+            - A shadow which is close to the text usually implies that the<br> underlying surface is close, that the light<br>
+            is close, or both. A close shadow <br> is often darker than a distant shadow,<br> because less light can get in <br>
+            between the shape and the underlying surface.<br>
+            To remove a text-shadow, set the text-shadow property<br> to none; no shadows will be <br>associated with that
+            element.</p>
+            <h3 class="two-shadows">This text has two shadows</h3>
     </div>
 
 
