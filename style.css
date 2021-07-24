@@ -204,9 +204,16 @@ nav ul li a {
     content: url("http://www.sololearn.com/images/bullet.jpg");
 }
 
+#pseudoElements-marker ::marker {
+    color: red;
+    font-size: 23px;
+}
 
 
-
+#pseudoElements-first-letter p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
 
 
 
