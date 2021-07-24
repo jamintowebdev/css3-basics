@@ -215,6 +215,11 @@ nav ul li a {
     font-size: xx-large;
 }
 
+#pseudoElements-first-letter p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+}
+
 
 
 
