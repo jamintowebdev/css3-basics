@@ -178,15 +178,34 @@ nav ul li a {
     color: #589432;
 }
 
-#selection-pseudo-element p::-moz-selection  {
+#selection-pseudo-element p::-moz-selection {
     background: #8bc34a;
     color: #fff;
 }
 
-#selection-pseudo-element p::selection  {
+#selection-pseudo-element p::selection {
     background: #8bc34a;
     color: rgb(41, 6, 235);
 }
+
+.pseudo-heading1::before {
+    content: url(https://emojipedia-us.s3.amazonaws.com/source/skype/289/smiling-face-with-smiling-eyes_1f60a.png);
+}
+
+.pseudo-heading2::after {
+    content: url(https://emojipedia-us.s3.amazonaws.com/source/skype/289/smiling-face-with-smiling-eyes_1f60a.png);
+}
+
+#pseudoElements-before1 p::before {
+    content: url("http://www.sololearn.com/images/bullet.jpg");
+}
+
+#pseudoElements-after1 p::after {
+    content: url("http://www.sololearn.com/images/bullet.jpg");
+}
+
+
+
 
 
 
