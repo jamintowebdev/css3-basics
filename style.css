@@ -165,6 +165,16 @@ nav ul li a {
     text-decoration: underline;
 }
 
+#parent2 {
+    font-size: 40px;
+}
+
+#parent2 p:last-child {
+    color: green;
+    text-decoration: underline;
+}
+
+
 
 
 
